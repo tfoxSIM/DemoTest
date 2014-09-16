@@ -9,7 +9,7 @@
 
         public string GetGoodbye(string name)
         {
-            return string.Format("Goodbye {0}", name);
+            return string.Format("See ya {0}", name);
         }
     }
 }
