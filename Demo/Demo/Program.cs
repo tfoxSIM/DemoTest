@@ -12,7 +12,7 @@ namespace Demo
         {
             IMessageFactory messageFactory = new MessageFactory();
             
-            Console.WriteLine(messageFactory.GetGreeting("Jimmy"));
+            Console.WriteLine(messageFactory.GetGreeting("James"));
             Console.WriteLine(messageFactory.GetGoodbye("Jimmy"));
 
             Console.ReadLine();
